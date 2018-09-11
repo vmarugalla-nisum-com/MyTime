@@ -17,7 +17,7 @@ class Leftnav extends Component {
                     {
                         this.props.LeftNavData.map((LeftNavData, index)=> (
                             <li className="nav-item" key={LeftNavData.id}>
-                                <Link to={LeftNavData.name}>{LeftNavData.name}</Link>
+                                <Link to={LeftNavData.url}>{LeftNavData.name}</Link>
                             </li>
                         ))
                     }

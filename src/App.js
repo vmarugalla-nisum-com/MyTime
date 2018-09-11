@@ -29,18 +29,15 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
         <div className="App">
           <header className="App-header">
             <h1 className="App-title">Welcome to React</h1>
           </header>
-          <Route exact path="/" component={PageLayout} />
-          <Route exact path="/MyTeam" component={PageLayout} />
+          <PageLayout />
           <footer className="App-header">
               <p>Footer</p>
           </footer>
         </div>
-      </Router>
     );
   }
 }

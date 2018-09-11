@@ -8,8 +8,12 @@ const initialState =
 
 const ContentSection = (state = initialState, action) => {
     switch(action.type){
-        case 'TEST':
-            return 'TEST';
+        case 'LOGIN_DATA':
+            return action.payload.ContentSection;
+        case 'MYTEAM_DATA': 
+            return action.payload.ContentSection;
+        case 'TEAMALLOCATION_DATA':
+            return action.payload.ContentSection;
         default:
             return state;
     }

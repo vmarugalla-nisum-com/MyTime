@@ -2,14 +2,17 @@ const initialState = [
     {   
         id:1,
         name: 'MyTeam',
+        url:'/MyTeam'
     },
     {
         id:2,
         name: 'My Team Allocations',
+        url:'/MyTeamAllocations'
     },
     {
         id:3,
-        name: 'My Login Details'
+        name: 'My Login Details',
+        url:'/MyLogin'
     }
 ];
 
