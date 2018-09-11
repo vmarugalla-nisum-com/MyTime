@@ -6,8 +6,6 @@ import { myTeamData } from '../actions';
 class MyTeam extends Component{
     constructor(props) {
         super(props);
-        console.log(this.props);
-        debugger
     }
     componentWillMount(){
         this.props.onLoad('MYTEAM_DATA');
